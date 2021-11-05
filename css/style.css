@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: georgia;
+	background: rgb(173, 173, 173);
+}
+* {
+	box-sizing: border-box
+}
+a {
+	color: #354052
+}
+
+
+img {
+	max-width: 100%
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto
+}
+header {
+	font-size: 70px;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	border-top: rgba(0,0,0,0.2);
+	border-bottom: rgba(0,0,0,0.2);
+	padding: 20px 0;
+	margin: 40px 0;
+	background: rgba(255, 255, 255, 0.8);
+	color: #757575
+	
+}
+.fejléc{
+	background: url('../pics/hatter.jpg')center center;
+}
+
+.content {
+	display: inline-block;
+	flex-wrap: nowrap;
+	min-height: 500px;
+	align-items: stretch;
+	
+}
+
+nav {
+	background: #dfe0e5;
+	background: url('../pics/bg-menu.jpg') center center;
+	order: 1;
+	flex-basis: 20vw;
+	
+}
+nav ul {
+	margin: 0;
+	list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+	
+}
+nav li {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+
+}
+li{
+	display: inline;
+}
+
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+	font-size: 50px;
+	
+}
+nav a:hover {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+main {
+	flex-basis: 60vw;
+	order: 2;
+	margin: 0 20px;
+}
+
+
+
+.uditok {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px
+}
+.uditok-box {
+	flex: 1;
+	min-width: 250px;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 10px 20px 10px
+}
+.uditok-box h2 {
+	font-size: 18px;
+	padding: 10px 20px 0 20px;
+	margin: 0
+}
+.uditok-box p {
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 19px
+}
+p{
+	text-align: center;
+}
+
+footer {
+	background: #dfe0e5;
+	padding: 20px;
+	height: 40px;
+	bottom: 0;
+	
+}
+.lábléc{
+	
+	background: #dfe0e5;
+	position: absolute;
+	padding: 20px;
+	width: 100%;
+	
+}
+.kepek{
+	float: initial;
+	max-width: 50%;
+}
